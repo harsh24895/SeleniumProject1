@@ -5,7 +5,7 @@ import json
 import pytest
 import selenium.webdriver
 
-
+#Chapter 7: Configuring Multiple browser
 # new fixture
 @pytest.fixture
 def config(scope='session'):

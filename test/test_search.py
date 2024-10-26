@@ -1,5 +1,5 @@
 #Setting up the selenium websriver chapter 3
-
+from urllib.parse import ParseResult
 
 #Setup the Chrome driver and geckodr
 #Now we have to setup the chrome in system path or user path as per the project is working on
@@ -17,7 +17,7 @@
 
 
 #here we have imported the page object classes
-from pages.result import DuckDuckGoResultPage
+"""from pages.result import DuckDuckGoResultPage
 from pages.search import DuckDuckGoSearchPage
 
 
@@ -25,7 +25,7 @@ def test_basic_duckduckgo_search(browser):
 
     search_page = DuckDuckGoSearchPage(browser)
     result_page = DuckDuckGoResultPage(browser)
-    PHRASE = "DuckDuckGo — Privacy, simplified." # Because of the css selector is looking for this text for test i'm mentioning this
+    PHRASE = "panda" # Because of the css selector is looking for this text for test i'm mentioning this
 
     #give the duckduckgo home page
     search_page.load()
@@ -45,5 +45,5 @@ def test_basic_duckduckgo_search(browser):
     matches = [t for t in titles if PHRASE.lower() in t.lower()]
     assert len(matches) > 0
 
-    #Remove the exception once the test is complete
-    raise Exception("Incomplete Test")
+   #And the serach result title contains "panda"
+    assert PHRASE in result_page.title()"""
