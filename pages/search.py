@@ -10,7 +10,7 @@ class DuckDuckGoSearchPage:
   # URL
   URL = 'https://duckduckgo.com/'
 
-  # Locators
+  # Locators Chapter-5 Finding locators from the Browser
 
   SEARCH_INPUT = (By.ID, 'searchbox_input')
 

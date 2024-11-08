@@ -16,7 +16,7 @@ from urllib.parse import ParseResult
 # as we have mention the fixture name in the function it will look for browser in the confest file
 
 
-#here we have imported the page object classes
+#here we have imported the page object classes Ch-4
 """from pages.result import DuckDuckGoResultPage
 from pages.search import DuckDuckGoSearchPage
 

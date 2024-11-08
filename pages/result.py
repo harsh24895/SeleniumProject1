@@ -1,7 +1,7 @@
 """
 This module contians duckduckGorulesPage
 """
-
+# Ch-4 Defining page objects and ch-6
 from selenium.webdriver.common.by import By
 
 class DuckDuckGoResultPage:

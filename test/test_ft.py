@@ -1,4 +1,4 @@
-#Steps to do for the setup
+#Steps:1 START to do for the setup
 #install dependency first: pip install pipenv in terminal
 #2. then mention : pipenv install
 # this will create a virtual environment and good to create this environment for every project
